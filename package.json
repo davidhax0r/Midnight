@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.0.0",
   "description": "Xcode's Midnight Theme",
-  "repository": "https://github.com/atom/midnight",
+  "repository": "https://github.com/itsnauman/Midnight",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
