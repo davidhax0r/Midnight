@@ -1,0 +1,137 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.comment {
+  color: #46D748;
+  background-color: #000000;
+}
+
+.string {
+  color: #FD3C27;
+  background-color: #000000;
+}
+
+.constant.numeric {
+  color: #6E66FE;
+  background-color: #000000;
+}
+
+.constant.language {
+  color: #0B99FF;
+  background-color: #000000;
+}
+
+.constant.character, .constant.other {
+  color: #23FF83;
+  background-color: #000000;
+}
+
+.variable.language, .variable.other {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.keyword {
+  color: #FF40B8;
+  background-color: #000000;
+}
+
+.storage {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.entity.name.class {
+  color: #23FF83;
+}
+
+.entity.other.inherited-class {
+  color: #23FF83;
+}
+
+.entity.name.function {
+  color: #23FF83;
+}
+
+.variable.parameter {
+  color: #23FF83;
+}
+
+.entity.name.tag {
+  color: #23FF83;
+}
+
+.entity.other.attribute-name {
+  color: #23FF83;
+}
+
+.support.function {
+  color: #0B99FF;
+}
+
+.support.constant {
+  color: #0B99FF;
+}
+
+.support.type, .support.class {
+  color: #0B99FF;
+}
+
+.support.other.variable {
+  color: #0B99FF;
+}
+
+.invalid {
+  color: #FF0000;
+}
